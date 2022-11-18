@@ -17,13 +17,6 @@ export const Content = styled.div`
   min-height: 50vh;
   padding: 3%;
 
-  h1{
-    font-size: 3.2rem;
-    padding: 2rem 0;
-    text-shadow: 2px 2px 2px #000;
-    color: ${({ theme }) => theme.colors.bg2};
-  }
-
   p{
     font-size: 1.8rem;
     padding: 1rem 0;
@@ -34,11 +27,6 @@ export const Content = styled.div`
     
     width: 90vw;
     padding: 4%;
-
-    h1{
-      font-size: 2.5rem;
-      padding: 1.5rem 0;
-    }
 
     p{
       font-size: 1.6rem;
@@ -51,12 +39,6 @@ export const Content = styled.div`
 
     width: 80vw;
     padding: 3%;
-
-
-    h1{
-      font-size: 3rem;
-      padding: 1.5rem 0;
-    }
 
     p{
       font-size: 1.8rem;
@@ -72,7 +54,7 @@ export const Goals = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: ${({ theme }) => theme.colors.bg2};
+  background-color: ${({ theme }) => theme.colors.lightBg2};
   color: ${({ theme }) => theme.colors.DescriptionColor};
   min-height: 40vh;
   flex-direction: column;
@@ -82,7 +64,6 @@ export const Goals = styled.div`
     font-size: 3.2rem;
     padding-bottom: 2rem ;
     color: ${({ theme }) => theme.colors.bg1};
-    text-shadow: 2px 2px 2px #000;
   }
 
   p{

@@ -7,8 +7,6 @@ const AboutUs = () => {
     <>
       <Wapper>
         <Content>
-          <h1>About Us</h1>
-          
           <p>We’ve all got causes close to our hearts: whether that’s young people, animals, homelessness, asylum seekers. And so on.</p>
                   
           <p>And we believe everyone has something to give. That could be time, skills, clothing, food, toys – the list is endless.</p>
